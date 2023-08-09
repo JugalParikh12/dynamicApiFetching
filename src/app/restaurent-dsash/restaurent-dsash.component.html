@@ -1,0 +1,14 @@
+
+<button (click)="getAllData()">getData</button>
+<!-- <form #usersForm="ngForm" (ngSubmit)="postData(usersForm.value)"> -->
+<form [formGroup]="addRestaurent">
+    <input type="number" name="id" placeholder="Enter id" formControlName="id">
+    <br>
+    <input type="text" name="name" placeholder="Enter Your Name" formControlName="name">
+    <br>
+    <input type="email" name="email" placeholder="Enter Your Email here" formControlName="email">
+    <br>
+    <button type="submit" (click)="createResto()">Add Detailss!!</button>
+    <button type="submit" (click)="updateResto()">Updatee!!</button>
+
+</form>
