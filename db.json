@@ -1,0 +1,16 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Guddu"
+    },
+    {
+      "id": 2,
+      "name": "Welcome"
+    },
+    {
+      "id": 3,
+      "name": "Club"
+    }
+  ]
+}
